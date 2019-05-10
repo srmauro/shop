@@ -569,7 +569,7 @@ footer{
 		
 	}
 	.sub_grid_2{
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns:  1fr;
 		grid-template-rows: repeat(6, 550px);
 		grid-template-areas:"producto_1"
 			    "producto_2"

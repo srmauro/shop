@@ -279,10 +279,14 @@ header{
 	grid-area: sub_grid_2;
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 550px);
-	grid-template-areas:"producto_1 producto_2 producto_3"
-						"producto_4 producto_5 producto_6";
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 550px);
+	grid-template-areas:"producto_1"
+			    "producto_2"
+			    "producto_3"
+			    "producto_4"
+			    "producto_5"
+			    "producto_6";
 	grid-gap: 20px;
 	margin-bottom: 40px;
 }
